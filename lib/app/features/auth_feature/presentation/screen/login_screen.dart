@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_responsive_login_ui/auth_bloc/auth_bloc.dart';
-import 'package:flutter_responsive_login_ui/home_screen.dart';
-import 'package:flutter_responsive_login_ui/widgets/gradient_button.dart';
-import 'package:flutter_responsive_login_ui/widgets/login_field.dart';
-import 'package:flutter_responsive_login_ui/widgets/social_button.dart';
+import '../../../../../core/widgets/gradient_button.dart';
+import '../../../home_feature/presentation/screens/home_screen.dart';
+import '../../auth_bloc/auth_bloc.dart';
+import '../widgets/login_field.dart';
+import '../widgets/social_button.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

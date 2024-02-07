@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_responsive_login_ui/auth_bloc/auth_bloc.dart';
-import 'package:flutter_responsive_login_ui/login_screen.dart';
-import 'package:flutter_responsive_login_ui/widgets/gradient_button.dart';
+import 'package:flutter_responsive_login_ui/app/features/auth_feature/presentation/screen/login_screen.dart';
+
+import '../../../../../core/widgets/gradient_button.dart';
+import '../../../auth_feature/auth_bloc/auth_bloc.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
