@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../core/widgets/gradient_button.dart';
 import '../../../home_feature/presentation/screens/home_screen.dart';
-import '../../auth_bloc/auth_bloc.dart';
+import '../../bloc/auth_bloc.dart';
 import '../widgets/login_field.dart';
 import '../widgets/social_button.dart';
 
